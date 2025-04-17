@@ -34,6 +34,7 @@ const MemesList = () => {
               <Button
                 href={meme.image}
                 as={Link}
+                target="_blank"
                 className="text-tiny"
                 color="primary"
                 radius="full"
