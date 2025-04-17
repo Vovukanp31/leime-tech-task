@@ -1,4 +1,9 @@
+import { Metadata } from "next";
 import MemesEditor from "../modules/MemesEditor";
+
+export const metadata: Metadata = {
+  title: "Tables | MEMELIB",
+};
 
 const Page = () => {
   return (

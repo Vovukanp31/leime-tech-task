@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Memes directory",
+  title: "MEMELIB",
   description: "LEIME tech task",
 };
 
