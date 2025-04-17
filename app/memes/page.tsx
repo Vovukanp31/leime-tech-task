@@ -1,4 +1,9 @@
+import { Metadata } from "next";
 import MemesList from "../modules/MemesList";
+
+export const metadata: Metadata = {
+  title: "Memes List | MEMELIB",
+};
 
 const Page = () => {
   return (
