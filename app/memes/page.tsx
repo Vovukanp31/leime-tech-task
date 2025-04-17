@@ -8,6 +8,7 @@ const Page = () => {
           MEMES LIST
         </h1>
       </div>
+
       <MemesList />
     </article>
   );

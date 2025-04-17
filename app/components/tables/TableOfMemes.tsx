@@ -70,7 +70,7 @@ const TableOfMemes = ({ memes, onEdit }: TableProps) => {
         {(meme) => (
           <TableRow key={meme.id}>
             {(columnKey) => (
-              <TableCell className="md:text-md max-w-[100px] truncate text-xs sm:text-base lg:text-xl">
+              <TableCell className="md:text-md max-w-[100px] cursor-default truncate text-xs sm:text-base lg:text-xl">
                 {renderCell(meme, String(columnKey))}
               </TableCell>
             )}

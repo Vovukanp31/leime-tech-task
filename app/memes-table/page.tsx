@@ -8,6 +8,7 @@ const Page = () => {
           TABLE OF MEMES
         </h1>
       </div>
+
       <MemesEditor />
     </article>
   );
